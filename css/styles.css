@@ -928,6 +928,10 @@ ul {
   background-origin: border-box;
 }
 
+.modal-accept-input:focus + .modal-accept-label::before {
+  border: 2px solid var(--accent-color);
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
